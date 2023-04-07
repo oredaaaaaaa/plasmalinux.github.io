@@ -1,0 +1,3 @@
+ <!--
+    Plasma Linuxは，Ubuntu LTSをベースにしたリマスタLinuxディストリビューションです．
+ -->
