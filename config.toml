@@ -26,7 +26,7 @@ pygmentsCodefencesGuessSyntax = true
   wordCount = false
   useHLJS = true
 #  socialShare = true
-  delayDisqus = true
+#  delayDisqus = true
   showRelatedPosts = true
 #  hideAuthor = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
@@ -43,6 +43,8 @@ pygmentsCodefencesGuessSyntax = true
 #[[Params.bigimg]]
 #  src = "img/hexagon.jpg"
 #  desc = "Hexagon"
+[[Params.bigimg]]
+  src = "img/bigimg_plasma.jpg"   # Topページの背景画像
 
 [Author]
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
