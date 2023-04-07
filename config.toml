@@ -96,7 +96,7 @@ pygmentsCodefencesGuessSyntax = true
 
 [[menu.main]]
     parent = "download"
-    name = "Get a Plasma Linux Install Image (準備中)"
+    name = "Get a Plasma Linux Install Image"
     url = "https://drive.google.com/drive/folders/1lVfSZLEW2MlsQOGdn4VUR_BPOi_vouio"
     weight = 1
 
