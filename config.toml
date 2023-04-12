@@ -14,9 +14,9 @@ pygmentsCodefencesGuessSyntax = true
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
   homeTitle = "Plasma Linux"
-#  subtitle = "Build a beautiful and simple website in minutes"
+  subtitle = "Plasma Linux 公式ウェブサイトへようこそ"
   mainSections = ["post","posts"]
-#  logo = "img/avatar-icon.png" # Expecting square dimensions
+  logo = "img/plasmalinux-icon.png" # Expecting square dimensions
 #  favicon = "img/favicon.ico"
   dateFormat = "2006/01/02"
   commit = false
@@ -50,12 +50,14 @@ pygmentsCodefencesGuessSyntax = true
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
   name = "Plasma Linux Development Team"
   website = "https://plasmalinux.github.io"
-  #email = "youremail@domain.com"
-  #facebook = "username"
   github = "PlasmaLinux"
+  twitter = "PlasmaLinux_JP"
+  discord = "https://discord.gg/dCkfHNe7n9"
+
   #gitlab = "username"
   #bitbucket = "username"
-  #twitter = "username"  # 後で修正する.
+  #email = "youremail@domain.com"
+  #facebook = "username"
   #reddit = "username"
   #linkedin = "username"
   #xing = "username"
@@ -76,7 +78,6 @@ pygmentsCodefencesGuessSyntax = true
   #kaggle = "username"
   #weibo = "username"
   #slack = "username"
-  #discord = "invite code (https://discord.gg/XXXXXXX)"
   #strava = "userid"
 
 [[menu.main]]
@@ -99,6 +100,30 @@ pygmentsCodefencesGuessSyntax = true
     name = "Get a Plasma Linux Install Image"
     url = "https://drive.google.com/drive/folders/1lVfSZLEW2MlsQOGdn4VUR_BPOi_vouio"
     weight = 1
+
+[[menu.main]]
+    identifier = "social"
+    name = "SNS"
+    weight = 2
+
+[[menu.main]]
+    parent = "social"
+    name = "GitHub"
+    url = "https://github.com/PlasmaLinux"
+    weight = 1
+
+[[menu.main]]
+    parent = "social"
+    name = "Twitter"
+    url = "https://twitter.com/PlasmaLinux_JP"
+    weight = 2
+
+[[menu.main]]
+    parent = "social"
+    name = "Discord"
+    url = "https://discord.gg/dCkfHNe7n9"
+    weight = 3
+
 
 #[[menu.main]]
 #    identifier = "samples"
