@@ -53,10 +53,10 @@ pygmentsCodefencesGuessSyntax = true
   github = "PlasmaLinux"
   twitter = "PlasmaLinux_JP"
   discord = "https://discord.gg/dCkfHNe7n9"
+  email = "plasmalinuxjapan@gmail.com"
 
   #gitlab = "username"
   #bitbucket = "username"
-  #email = "youremail@domain.com"
   #facebook = "username"
   #reddit = "username"
   #linkedin = "username"
