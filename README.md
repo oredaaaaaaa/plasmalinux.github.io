@@ -4,7 +4,13 @@ Plasma Linux の公式ウェブサイトです．
 
 このウェブサイトは 静的サイトジェネレータ (Static Site Generator) の [Hugo](https://gohugo.io) を利用して作成しています．
 
-さらにGitHub Actionを利用しており，このリポジトリを更新するたびに，ウェブサイトを `https://plasmalinux.github.io/` にデプロイします．
+さらにGitHub Actionを利用しており，このレポジトリを更新するたびに，ウェブサイトを `https://plasmalinux.github.io/` にデプロイします．
+
+## レポジトリ管理方針
+このレポジトリは以下のように運用してください．
+
+![レポジトリ管理方針](./repo_rules.svg)
+
 
 ## 記事作成方法
 ### 準備
